@@ -28,7 +28,7 @@
         country:"SA",
         city: city
     }
-  fetch.get('https://api.aladhan.com/v1/timingsByCity', {
+  axios.get('https://api.aladhan.com/v1/timingsByCity', {
       params:param
     })
     .then(function (response) {
