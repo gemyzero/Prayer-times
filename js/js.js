@@ -1,9 +1,14 @@
-  var select = document.getElementById('select');
+
+
+
+var select = document.getElementById('select');
   document.getElementById('name-city').innerText ='Al Madīnah al Munawwarah';
 
     let cities = [ 
       'Al Madīnah al Munawwarah','Ar Riyāḑ','Makkah al Mukarramah','Tabūk'
     ]
+
+    
     for ( let cite of cities){
 
       let content = `
